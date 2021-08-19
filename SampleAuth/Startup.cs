@@ -37,9 +37,13 @@ namespace SampleAuth
                 {
                     // policy.RequireClaim(ClaimTypes.DateOfBirth);
                     // policy.AddRequirements(new CustomRequireCliam(ClaimTypes.DateOfBirth));
+
+
+                    /** Setting up the cliams that every req must hv**/ 
                     policy.RequireCustomeClaim(ClaimTypes.DateOfBirth);
                 });
             });
+             /* validating the claims line 47*/
             services.AddScoped<IAuthorizationHandler, CustomRequireCliamHandler>();
             services.AddSingleton<IAuthorizationPolicyProvider, CustomeAuthorizationPolicyProvider>();
             services.AddScoped<IAuthorizationHandler, SecurityHandler>();
