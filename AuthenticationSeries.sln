@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityAuth", "IdentityAut
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleJWt", "OAuth\SimpleJWt\SimpleJWt.csproj", "{F1401CE1-E65D-4011-9283-03DCA73A608E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OauthClient", "OAuth\OauthClient\OauthClient.csproj", "{A6568828-D0A2-48EC-974D-D44124BC7635}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F1401CE1-E65D-4011-9283-03DCA73A608E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1401CE1-E65D-4011-9283-03DCA73A608E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1401CE1-E65D-4011-9283-03DCA73A608E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6568828-D0A2-48EC-974D-D44124BC7635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6568828-D0A2-48EC-974D-D44124BC7635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6568828-D0A2-48EC-974D-D44124BC7635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6568828-D0A2-48EC-974D-D44124BC7635}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -50,6 +50,6 @@ namespace SimpleJWt.Controllers
     {
         public const string Audiance = "https://localhost:5001/";
         public const string Issuers = "https://localhost:5001/";
-        public const string SecurityKey = "My_Test_Key_For_Token_Generation";
+        public const string SecurityKey = "MyTestKeyForToken";
     }
 }
